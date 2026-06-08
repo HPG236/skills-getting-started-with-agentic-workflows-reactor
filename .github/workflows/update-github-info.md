@@ -9,17 +9,17 @@ permissions:
   contents: read
   pull-requests: read
 safe-outputs:
-    create-pull-request:
-        title-prefix: "[mona] "
-        draft: true
-        fallback-as-issue: false
+  create-pull-request:
+     title-prefix: "[mona] "
+     draft: true
+     fallback-as-issue: false
 tools:
-  edit:
-  web-fetch:
+  edit: null
+  web-fetch: null
 network:
-    allowed:
-        - github.com
-        - github.blog
+  allowed:
+    - github.com
+    - github.blog
 ---
 
 # Update GitHub Info
